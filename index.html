@@ -1,84 +1,74 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>球衣之家 - 您的专业球衣购物平台</title>
-    <link rel="stylesheet" href="styles/main.css">
+    <title>我的展示网站</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav class="main-nav">
-            <div class="logo">
-                <!-- <img src="images/logo.png" alt="球衣之家"> -->
-            </div>
-            <div class="nav-links">
-                <a href="/">首页</a>
-                <a href="/categories">球衣分类</a>
-                <a href="/teams">球队</a>
-                <a href="/players">球员</a>
-            </div>
-            <div class="user-actions">
-                <a href="/cart">购物车</a>
-                <a href="/login">登录</a>
-                <a href="/register">注册</a>
-            </div>
+        <nav>
+            <div class="logo">Logo</div>
+            <ul class="nav-links">
+                <li><a href="index.html">首页</a></li>
+                <li><a href="about.html">关于</a></li>
+                <li><a href="services.html">服务</a></li>
+            </ul>
+            <a href="contact.html" class="contact-link">联系我们</a>
         </nav>
     </header>
 
     <main>
-        <section class="hero-banner">
-            <div class="slider">
-                <!-- 轮播图部分暂时注释 -->
-            </div>
-        </section>
-
-        <section class="featured-products">
-            <h2>热门球衣</h2>
-            <div class="product-grid">
-                <!-- 曼城球衣 -->
-                <div class="product-card">
-                    <div class="product-image">
-                        <img src="images/products/manchester-city-home.jpg" alt="曼城主场球衣">
-                        <div class="product-tags">
-                            <span class="tag new">新品</span>
-                        </div>
-                    </div>
-                    <div class="product-info">
-                        <h3>曼城 2023/24 赛季主场球衣</h3>
-                        <div class="product-meta">
-                            <span class="price">¥599</span>
-                            <span class="original-price">¥699</span>
-                        </div>
+        <div class="welcome-text">
+            <h1>欢迎来到我的网站</h1>
+            <p>这是一个专业的展示网站</p>
+        </div>
+        <div class="hero-image">
+            <img src="images/hero.jpg" alt="展示图片">
+        </div>
+        
+        <div class="featured-section">
+            <h2 class="section-title">精选展示</h2>
+            <div class="feature-blocks">
+                <div class="feature-block">
+                    <div class="feature-content">
+                        <h3>特色展示 1</h3>
+                        <img src="images/feature1.jpg" alt="特色图片1">
+                        <p class="feature-description">特色内容描述1</p>
+                        <a href="feature1-video.html" class="feature-link">了解更多</a>
                     </div>
                 </div>
-
-                <!-- 其他球衣暂时注释掉 -->
+                <div class="feature-block">
+                    <div class="feature-content">
+                        <h3>特色展示 2</h3>
+                        <img src="images/feature2.jpg" alt="特色图片2">
+                        <p class="feature-description">特色内容描述2</p>
+                        <a href="feature2-video.html" class="feature-link">了解更多</a>
+                    </div>
+                </div>
+                <div class="feature-block">
+                    <div class="feature-content">
+                        <h3>特色展示 3</h3>
+                        <img src="images/feature3.jpg" alt="特色图片3">
+                        <p class="feature-description">特色内容描述3</p>
+                        <a href="feature3-video.html" class="feature-link">了解更多</a>
+                    </div>
+                </div>
+                <div class="feature-block">
+                    <div class="feature-content">
+                        <h3>特色展示 4</h3>
+                        <img src="images/feature4.jpg" alt="特色图片4">
+                        <p class="feature-description">特色内容描述4</p>
+                        <a href="feature4-video.html" class="feature-link">了解更多</a>
+                    </div>
+                </div>
             </div>
-        </section>
-
-        <section class="categories">
-            <h2>球衣分类</h2>
-            <div class="category-grid">
-                <!-- 分类卡片暂时注释掉 -->
-            </div>
-        </section>
+        </div>
     </main>
 
     <footer>
-        <div class="footer-content">
-            <div class="footer-section">
-                <h3>关于我们</h3>
-                <p>专业的球衣销售平台</p>
-            </div>
-            <div class="footer-section">
-                <h3>客户服务</h3>
-                <ul>
-                    <li><a href="/contact">联系我们</a></li>
-                    <li><a href="/faq">常见问题</a></li>
-                </ul>
-            </div>
-        </div>
+        <p>&copy; 2024 我的展示网站. 保留所有权利。</p>
     </footer>
 </body>
 </html> 
